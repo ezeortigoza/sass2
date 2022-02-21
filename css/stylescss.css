@@ -1,0 +1,95 @@
+h1 {
+  color: red; }
+
+.center {
+  text-align: center; }
+
+body {
+  background-color: #000; }
+  body .rojo {
+    color: #dc3545; }
+  body .blanco {
+    color: #fff; }
+  body .amarillo {
+    color: #000; }
+  body .textCenter {
+    text-align: center; }
+  body .left {
+    margin-left: 45%; }
+  body .top {
+    margin-top: 100px; }
+  body .letra {
+    font-size: xx-large; }
+  body .abajo {
+    margin-top: 30%; }
+  body .imgs {
+    text-align: center; }
+  body svg {
+    text-align: center;
+    color: #dc3545; }
+
+#body {
+  background-color: white; }
+
+#alto {
+  height: 10px; }
+
+.image {
+  background-image: url(https://onfit.com.ar/images/parallax/homepage-01.jpg); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  width: 50px;
+  height: 50px; }
+
+.fondo, .fondoo {
+  background-color: white; }
+
+.fondoo {
+  background-color: black; }
+
+.tituloAnimado, .tituloAnimado2, .tituloAnimado3 {
+  animation-name: Titulo;
+  animation-iteration-count: 1;
+  animation-duration: 2s; }
+
+@keyframes Titulo {
+  from {
+    transform: translate(-500px);
+    opacity: 0; }
+  to {
+    transform: translate(0);
+    opacity: 1; } }
+
+.tituloAnimado2, .tituloAnimado3 {
+  animation-iteration-count: 1;
+  animation-duration: 6s;
+  animation-delay: 2s; }
+
+@keyframes Titulo {
+  from {
+    transform: translate(-500px);
+    opacity: 0; }
+  to {
+    transform: translate(0);
+    opacity: 1; } }
+
+.tituloAnimado3 {
+  animation-delay: 4s; }
+
+@keyframes Titulo {
+  from {
+    transform: translate(-500px);
+    opacity: 0; }
+  to {
+    transform: translate(0);
+    opacity: 1; } }
+
+h1 {
+  font-size: 5rem; }
+
+h3 {
+  font-size: 5rem; }

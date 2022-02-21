@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@mixin tamaño ($anchuraa, $altura) {
+    width: $anchuraa;
+    height: $altura;  
+}
+.logo{
+    @include tamaño(50px,50px )
+}
+
+.fondo{
+    background-color: white;
+}
+.fondoo{
+    @extend .fondo;
+    background-color: black;
+}
+.tituloAnimado{
+    animation-name: Titulo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+@keyframes Titulo{
+ from{
+    transform: translate(-500px);
+     opacity: 0;
+ }
+ to{
+     transform: translate(0);
+     opacity: 1;
+ }
+}
+.tituloAnimado2{
+    @extend .tituloAnimado;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
+@keyframes Titulo{
+    from{
+       transform: translate(-500px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+   }
+   .tituloAnimado3{
+       @extend .tituloAnimado2;
+       animation-delay: 4s;
+   }
+   @keyframes Titulo{
+    from{
+       transform: translate(-500px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+   }
+ $headings: (
+     h1: 5rem,
+    h3: 5rem,
+        
+ );
+
+ $h1: map-get($headings, h1);
+ $h3: map-get($headings, h3 );
+ 
+ 
+
+ h1{
+     font-size: $h1;
+ }
+ h3{
+     font-size: $h3;
+ }
+ 
+
+ 
+
+

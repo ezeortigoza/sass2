@@ -1,0 +1,12 @@
+Bloc de notas seo:
+"Agregue estas keywords: fit, calistenia, gym, gimnasio"
+
+"A cada seccion de la pagina le añadi descripciones": 
+INDEX: "Pagina inicial, encontraras grandes beneficios, el mejor lugar para entrenar con las mejores maquinas de hoy en dia, es tu oportunidad"
+CONTACTO: "Ponte en contacto con nosotros, te estamos esperando para cambiar tu vida"
+CORPORATIVO: "Te estamos esperando para formar parte de nuestro equipo, aprovecha la oportunidad"
+SEDES: "Nuestras sedes, donde encontrarnos y entrenar con nosotros, te estamos esperando"
+PRUEBA CALISTENIC FIT: "Es la hora de probar, y que se convierta en un estilo de vida"
+
+"A cada seccion de la pagina le añadi diferentes titulos que se identifica con la seccion de la pagina"
+
